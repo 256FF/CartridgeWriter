@@ -1,4 +1,4 @@
-﻿// Ported from material.py and manager.py by David Slayton (2014); copyright below.
+// Ported from material.py and manager.py by David Slayton (2014); copyright below.
 
 // Copyright (c) 2013, Benjamin Vanheuverzwijn <bvanheu@gmail.com>
 // All rights reserved.
@@ -159,12 +159,13 @@ namespace CartridgeWriter
             }
             set
             {
-                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Year)), 0, _decrypted, 0x28, 2);
-                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Month)), 0, _decrypted, 0x2a, 1);
-                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Day)), 0, _decrypted, 0x2b, 1);
-                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Hour)), 0, _decrypted, 0x2c, 1);
-                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Minute)), 0, _decrypted, 0x2d, 1);
-                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Second)), 0, _decrypted, 0x2e, 2);
+                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Year)), 0, _decrypted, 0x30, 2); //0x28
+                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Month)), 0, _decrypted, 0x32, 1); //0x2a
+                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Day)), 0, _decrypted, 0x33, 1); //0x2b
+                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Hour)), 0, _decrypted, 0x34, 1); //0x2c
+                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Minute)), 0, _decrypted, 0x35, 1); //0x2d
+                Buffer.BlockCopy(BitConverter.GetBytes((ushort)(value.Second)), 0, _decrypted, 0x36, 2); //0x2e
+                //changed address from 0x28ff to 0x30ff
             }
         }
 
