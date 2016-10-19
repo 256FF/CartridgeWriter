@@ -1,9 +1,9 @@
-Copy of Original CartrigeWriter of @slaytonmd (Date: 19.10.2016)
+**Copy of Original CartrigeWriter of @slaytonmd (Date: 19.10.2016)**
 
 
-Original Readme.md starts here
+*Original Readme.md starts here*
 ---------------------------------------------------
-Cartridge Writer
+*Cartridge Writer*
 ================
 
 Note:	I have not had time to work on this repository in over a year, it has not
