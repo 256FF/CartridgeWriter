@@ -1,3 +1,8 @@
+Copy of Original CartrigeWriter of @slaytonmd (Date: 19.10.2016)
+
+
+Original Readme.md starts here
+---------------------------------------------------
 Cartridge Writer
 ================
 
