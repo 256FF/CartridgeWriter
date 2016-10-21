@@ -1,10 +1,12 @@
-**Copy of Original CartrigeWriter of @slaytonmd (Date: 19.10.2016)**
-
-
-*Original Readme.md starts here*
----------------------------------------------------
-*Cartridge Writer*
+Copy of Original CartrigeWriter of @slaytonmd (Date: 19.10.2016)
 ================
+
+
+**=> Original Readme.md starts here <=**
+
+
+Cartridge Writer
+----
 
 Note:	I have not had time to work on this repository in over a year, it has not
 	been updated with the latest code from https://github.com/bvanheu/stratasys
