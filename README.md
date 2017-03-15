@@ -1,5 +1,16 @@
 Copy of Original CartrigeWriter of @slaytonmd (Date: 19.10.2016)
-================
+----
+
+Changes:
+----
+	- Changed ABS_SS in Material to P400SR
+	- Added SR30L and ABS430L for HP DesignJet 3D
+	- Make UID and KeyFragment select- and copyable
+	- Increased SerialInitializationWait to 3000 ms
+	- Edit Buffer-Address for last-use-date (now starting at 0x30)
+
+----
+----
 
 
 **=> Original Readme.md starts here <=**
