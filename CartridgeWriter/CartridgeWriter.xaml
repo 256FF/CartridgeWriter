@@ -42,9 +42,9 @@
             <ComboBox x:Name="cboPrinterType" Margin="5,26,10,0" VerticalAlignment="Top" ToolTip="Select the type of printer in which the cartridge is used." Grid.Column="1" Height="22" SelectionChanged="cboPrinterType_SelectionChanged"/>
             <Button x:Name="cmdRead" Content="Read" Margin="5,26,10,0" VerticalAlignment="Top" ToolTip="Press to read the printer cartrige data from the DS2433 chip." Grid.Column="2" Height="22" Click="cmdRead_Click"/>
             <Label x:Name="lblEEPROMUID" Content="EEPROM UID:" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Grid.Column="3" Height="26" Width="82"/>
-            <TextBox x:Name="txtEEPROMUID" Height="23" Margin="5,26,10,0" TextWrapping="Wrap" VerticalAlignment="Top" IsEnabled="False" Grid.Column="3"/>
+            <TextBox x:Name="txtEEPROMUID" Height="23" Margin="5,26,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="3"/>
             <Label x:Name="lblKeyFragment" Content="Key Fragment:" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Grid.Column="4" Height="26" Width="86"/>
-            <TextBox x:Name="txtKeyFragment" Height="23" Margin="5,26,10,0" TextWrapping="Wrap" VerticalAlignment="Top" IsEnabled="False" Grid.Column="4"/>
+            <TextBox x:Name="txtKeyFragment" Height="23" Margin="5,26,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="4"/>
         </Grid>
         <Grid x:Name="grdCartridgeValuesHeaderLabels" Margin="150,0,10,0" Height="26" VerticalAlignment="Top">
             <Grid.ColumnDefinitions>
