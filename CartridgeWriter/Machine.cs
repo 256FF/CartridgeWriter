@@ -39,7 +39,8 @@ namespace CartridgeWriter
         private static readonly IEnumerable<Machine> Machines = new List<Machine>
         {
 			new Machine {Number = new byte[8] {0xF3, 0xA9, 0x1D, 0xBE, 0x6B, 0x0B, 0x22, 0x55}, Type = "uPrint / uPrint Plus"},
-			//new Machine {Number = new byte[8] {0x6B, 0x2A, 0x26, 0x8B, 0x5E, 0xD3, 0x37, 0x4A}, Type = "uprintse"}
+			new Machine {Number = new byte[8] {0xA1, 0xF2, 0x5B, 0x5D, 0xC5, 0xB9, 0x72, 0xFD}, Type = "uPrint SE / uPrint SE Plus"}
+			// uPrint SE machine ID for testing. Not sure if it is working.
         };
 
         private Machine() { }
